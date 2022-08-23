@@ -1,0 +1,123 @@
+.viewport {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 3rem;
+    span {
+        font-weight: 900;
+        font-size: 2rem;
+        color: #de6400;
+    }
+    h2 {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(231, 146, 8);
+    background: radial-gradient(circle, rgba(231, 146, 8, 0.201) 0%, rgba(254, 220, 205, 0.5) 100%);
+    backdrop-filter: blur(8px);
+    padding: 3rem 3rem;
+    border-radius: 25px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    input {
+        width: 100%;
+        border-radius: 5px;
+        padding: .2rem;
+        outline: none;
+    }
+}
+
+.error {
+    color: rgb(90, 0, 0);
+    font-size: .8rem;
+    background-color: #fa808061;
+    padding: 0 .4rem;
+    border-radius: 3px;
+    margin: .2rem 0;
+    li {
+        font-size: .8rem;
+        color: rgb(90, 0, 0);
+    }
+}
+
+.inputNormal {
+    border: 1px solid #7d7d7d;
+}
+
+.inputDanger {
+    border-top: 1px solid #d80000;
+    border-left: 1px solid #d80000;
+    border-right: 1px solid #d80000;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+.inputNormal:focus,
+.inputDanger:focus {
+    border-top: 1px solid #00afca;
+    border-left: 1px solid #00afca;
+    border-right: 1px solid #00afca;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    button {
+        padding: .3rem 2.5rem;
+        font-weight: 500;
+        color: #fff;
+        background-color: #de6400;
+        font-size: 1.3rem;
+        border-radius: 10px;
+    }
+    a {
+        font-weight: 900;
+        font-size: 1.3rem;
+    }
+}
+
+.line {
+    width: 70%;
+    height: 2px;
+    background-color: #7d7d7d6b;
+    margin: 30px auto;
+}
+
+.google {
+    margin: 0 auto;
+    padding: .7rem 2rem;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
