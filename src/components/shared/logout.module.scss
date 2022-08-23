@@ -1,0 +1,14 @@
+.logout {
+    background-color: #de6400;
+    color: #fff;
+    font-family: 500;
+    padding: .5rem 3rem;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .logout {
+        padding: .3rem 2rem;
+        font-size: .9rem;
+    }
+}

@@ -13,7 +13,8 @@ import styles from './googleButton.module.scss'
 
 const googleSignup = () => {
     const provider = new GoogleAuthProvider();
-    signInWithRedirect(auth, provider);
+    signInWithRedirect(auth, provider)
+      .catch(err=>alert(err))
   }
 
 
